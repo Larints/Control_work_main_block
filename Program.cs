@@ -12,7 +12,8 @@ string[] someArray = new string[N];
 FillArray(someArray);
 Console.WriteLine($"Первоначальный массив -> [{String.Join(",", someArray)}]");
 ResultArray(someArray);
-string[] FillArray(string[] array)
+
+string[] FillArray(string[] array) // Метод заполнения массива с клавитуры
 {
     for (int i = 0; i < array.Length; i++)
     {
@@ -22,7 +23,7 @@ string[] FillArray(string[] array)
     return array;
 }
 
-void ResultArray(string[] array)
+void ResultArray(string[] array) // Метод для выведения итогового масссива 
 {
     int length = 0;
 
