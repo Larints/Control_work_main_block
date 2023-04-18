@@ -8,15 +8,42 @@
 Console.Write("Введите размерность массива: ");
 int N = int.Parse(Console.ReadLine()!);
 
-string [] someArray = new string [N];
+string[] someArray = new string[N];
 FillArray(someArray);
-
-string [] FillArray (string [] array)
+Console.WriteLine($"Первоначальный массив -> [{String.Join(",", someArray)}]");
+ResultArray(someArray);
+string[] FillArray(string[] array)
 {
     for (int i = 0; i < array.Length; i++)
     {
-        Console.Write("Введите позицию:");
+        Console.Write($"Введите значение для элемента {i}: ");
         array[i] = Console.ReadLine()!;
     }
     return array;
+}
+
+void ResultArray(string[] array)
+{
+    int length = 0;
+
+    for (int i = 0; i < array.Length; i++)
+    {
+        if (array[i].Length <= 3)
+        {
+            length++;
+        }
+    }
+
+    string[] resultArray = new string[length];
+    int index = 0;
+
+    for (int i = 0; i < array.Length; i++)
+    {
+        if (array[i].Length <= 3)
+        {
+            resultArray[index] = array[i];
+            index++;
+        }
+    }
+    Console.WriteLine($"Итоговый массив -> [{String.Join(",", resultArray)}]");
 }
