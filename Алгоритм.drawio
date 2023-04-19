@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-19T11:53:29.560Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="iu81qzhXDtxjuT6YbIr7" version="21.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-19T14:14:51.876Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="Ne-jxNpk7l1voLtbVG0Y" version="21.2.0" type="github">
   <diagram name="Страница 1" id="wiCkhNsXEZ-Z-EXqQOiV">
     <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -59,7 +59,7 @@
         <mxCell id="tDU4lAh9EVNraaSVH0l1-15" value="да" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="440" y="640" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tDU4lAh9EVNraaSVH0l1-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tDU4lAh9EVNraaSVH0l1-17" target="tDU4lAh9EVNraaSVH0l1-20" edge="1">
+        <mxCell id="omo0sCEEZZdvEAyILpLl-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tDU4lAh9EVNraaSVH0l1-17" target="omo0sCEEZZdvEAyILpLl-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tDU4lAh9EVNraaSVH0l1-17" value="Возвращаем заполненный массив&lt;br&gt;return SomeValues;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -72,34 +72,136 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tDU4lAh9EVNraaSVH0l1-20" value="Объявляем метод типа void для вывода результативного массива&lt;br&gt;void NewArray(string[] array)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
-          <mxGeometry x="295" y="860" width="290" height="80" as="geometry" />
+          <mxGeometry x="295" y="1000" width="290" height="80" as="geometry" />
         </mxCell>
         <mxCell id="tDU4lAh9EVNraaSVH0l1-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tDU4lAh9EVNraaSVH0l1-22" target="tDU4lAh9EVNraaSVH0l1-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tDU4lAh9EVNraaSVH0l1-22" value="Объявляем переменную &lt;br&gt;int lenght = 0;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="380" y="980" width="120" height="60" as="geometry" />
+        <mxCell id="tDU4lAh9EVNraaSVH0l1-22" value="Объявляем переменную &lt;br&gt;int length = 0;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="1120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="T3vBm1u9xAtFssdFaRKf-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tDU4lAh9EVNraaSVH0l1-26" target="T3vBm1u9xAtFssdFaRKf-24">
+        <mxCell id="T3vBm1u9xAtFssdFaRKf-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tDU4lAh9EVNraaSVH0l1-26" target="T3vBm1u9xAtFssdFaRKf-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="omo0sCEEZZdvEAyILpLl-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tDU4lAh9EVNraaSVH0l1-26" target="omo0sCEEZZdvEAyILpLl-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="1320" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="tDU4lAh9EVNraaSVH0l1-26" value="Объявляем цикл &lt;br&gt;for для прохода &lt;br&gt;по элементам массива&lt;br&gt;for (int i = 0; i &amp;lt; array.Length; i++)" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="310" y="1080" width="260" height="200" as="geometry" />
+          <mxGeometry x="310" y="1220" width="260" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="T3vBm1u9xAtFssdFaRKf-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T3vBm1u9xAtFssdFaRKf-24" target="T3vBm1u9xAtFssdFaRKf-27">
+        <mxCell id="T3vBm1u9xAtFssdFaRKf-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="T3vBm1u9xAtFssdFaRKf-24" target="T3vBm1u9xAtFssdFaRKf-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T3vBm1u9xAtFssdFaRKf-24" value="Проверка выполнения&lt;br&gt;условия, если&lt;br&gt;значение длины &lt;br&gt;i-ого элемента массива &lt;br&gt;меньше или равно трёх символов&lt;br&gt;if (array[i].Length &amp;lt;= 3)&lt;br&gt;&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="295" y="1310" width="290" height="180" as="geometry" />
+        <mxCell id="omo0sCEEZZdvEAyILpLl-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.296;entryY=0.215;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="T3vBm1u9xAtFssdFaRKf-24" target="tDU4lAh9EVNraaSVH0l1-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="1380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="1540" />
+              <mxPoint x="600" y="1740" />
+              <mxPoint x="240" y="1740" />
+              <mxPoint x="240" y="1263" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="T3vBm1u9xAtFssdFaRKf-27" value="увеличиваем&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;переменную на один" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="1520" width="120" height="60" as="geometry" />
+        <mxCell id="T3vBm1u9xAtFssdFaRKf-24" value="Проверка выполнения&lt;br&gt;условия, если&lt;br&gt;значение длины &lt;br&gt;i-ого элемента массива &lt;br&gt;меньше или равно трёх символов&lt;br&gt;if (array[i].Length &amp;lt;= 3)&lt;br&gt;&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="295" y="1450" width="290" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="T3vBm1u9xAtFssdFaRKf-29" value="да" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="430" y="1280" width="60" height="30" as="geometry" />
+        <mxCell id="omo0sCEEZZdvEAyILpLl-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T3vBm1u9xAtFssdFaRKf-27" target="tDU4lAh9EVNraaSVH0l1-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="1690" />
+              <mxPoint x="280" y="1320" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="T3vBm1u9xAtFssdFaRKf-30" value="да" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="430" y="1480" width="60" height="30" as="geometry" />
+        <mxCell id="T3vBm1u9xAtFssdFaRKf-27" value="Увеличиваем&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;переменную на один&lt;br&gt;Length++;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="1660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T3vBm1u9xAtFssdFaRKf-29" value="да" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="430" y="1420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T3vBm1u9xAtFssdFaRKf-30" value="да" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="430" y="1620" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="omo0sCEEZZdvEAyILpLl-3" value="нет" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1510" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="omo0sCEEZZdvEAyILpLl-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="omo0sCEEZZdvEAyILpLl-5" target="omo0sCEEZZdvEAyILpLl-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="omo0sCEEZZdvEAyILpLl-5" value="Объявляем переменную index = 0&lt;br&gt;Объявляем строковый массив resultArray с размерностью Length&lt;br&gt;int index = 0;&lt;br&gt;string[] resultArray = new string[Length];" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="1760" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="omo0sCEEZZdvEAyILpLl-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="omo0sCEEZZdvEAyILpLl-7" target="omo0sCEEZZdvEAyILpLl-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="omo0sCEEZZdvEAyILpLl-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="omo0sCEEZZdvEAyILpLl-7" target="omo0sCEEZZdvEAyILpLl-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="2590" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="1975" />
+              <mxPoint x="720" y="2600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omo0sCEEZZdvEAyILpLl-7" value="Объявляем цикл&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;for для прохода&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;по элементам массива&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;for (int i = 0; i &amp;lt; array.Length; i++)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="1870" width="270" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="omo0sCEEZZdvEAyILpLl-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="omo0sCEEZZdvEAyILpLl-9" target="omo0sCEEZZdvEAyILpLl-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="omo0sCEEZZdvEAyILpLl-9" value="Проверка выполнения&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;условия, если&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;значение длины&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;i-ого элемента массива&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;меньше или равно трёх символов&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;if (array[i].Length &amp;lt;= 3)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="2110" width="260" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="omo0sCEEZZdvEAyILpLl-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="omo0sCEEZZdvEAyILpLl-11" target="omo0sCEEZZdvEAyILpLl-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="2440" />
+              <mxPoint x="280" y="1975" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omo0sCEEZZdvEAyILpLl-11" value="Записываем в index-ный элемент результативного массива i-ый элемент главного массива&lt;br&gt;resultArray[index] = array[i];&lt;br&gt;Увеличиваем счетчик index на 1&lt;br&gt;index ++;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="336.25" y="2390" width="207.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="omo0sCEEZZdvEAyILpLl-14" value="Да" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="2080" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="omo0sCEEZZdvEAyILpLl-15" value="да" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="2350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="omo0sCEEZZdvEAyILpLl-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="omo0sCEEZZdvEAyILpLl-18" target="tDU4lAh9EVNraaSVH0l1-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="omo0sCEEZZdvEAyILpLl-18" value="Применяем метод FillArray к массиву someValues&lt;br&gt;FillArray(SomeValues);" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="860" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="omo0sCEEZZdvEAyILpLl-24" value="условие не выполняется" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="575" y="1280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="omo0sCEEZZdvEAyILpLl-25" value="условие не выполняется" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1940" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="omo0sCEEZZdvEAyILpLl-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="omo0sCEEZZdvEAyILpLl-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="2720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="omo0sCEEZZdvEAyILpLl-28" value="Выводим результативный &lt;br&gt;массив с помощью интерполяции&amp;nbsp;&lt;br&gt;Console.WriteLine($&quot;Полученный массив -&amp;gt; [{String.Join(&quot;,&quot;, resultArray)}]&quot;);" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="197.5" y="2550" width="485" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="omo0sCEEZZdvEAyILpLl-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="omo0sCEEZZdvEAyILpLl-33" target="omo0sCEEZZdvEAyILpLl-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="omo0sCEEZZdvEAyILpLl-33" value="Выводим первоначальный массив&lt;br&gt;Console.WriteLine($&quot;Введенный первоначальный массив -&amp;gt; [{String.Join(&quot;,&quot;, SomeValues)}]&quot;);" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="2720" width="530" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="omo0sCEEZZdvEAyILpLl-34" value="Применяем метод&amp;nbsp;&lt;br&gt;NewArray к массиву &lt;br&gt;SomeValues&lt;br&gt;который выводит результативный массив&lt;br&gt;NewArray(SomeValues);" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="2810" width="190" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
