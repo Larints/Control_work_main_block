@@ -1,9 +1,88 @@
-<mxfile host="app.diagrams.net" modified="2023-04-19T07:05:14.347Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.1.9" etag="c63YfyR01EfoSVA437uO" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-19T11:19:09.347Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="X9QgoV7gLuMo9U0b7Is7" version="21.1.9" type="github">
   <diagram name="Страница 1" id="wiCkhNsXEZ-Z-EXqQOiV">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="tDU4lAh9EVNraaSVH0l1-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tDU4lAh9EVNraaSVH0l1-1" target="tDU4lAh9EVNraaSVH0l1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tDU4lAh9EVNraaSVH0l1-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tDU4lAh9EVNraaSVH0l1-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tDU4lAh9EVNraaSVH0l1-2" target="tDU4lAh9EVNraaSVH0l1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tDU4lAh9EVNraaSVH0l1-2" value="Приглашаем пользователя ко вводу значения размерности массива&lt;br&gt;Задаём переменную N&lt;br&gt;int n = int.Parse(Console.ReadLine()!);&lt;br&gt;Объявляем строковый массив string [] someValues с размерностью N&lt;br&gt;string[] someValues = new string[n];" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="277.5" y="130" width="325" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="tDU4lAh9EVNraaSVH0l1-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tDU4lAh9EVNraaSVH0l1-4" target="tDU4lAh9EVNraaSVH0l1-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tDU4lAh9EVNraaSVH0l1-4" value="Объявляем метод типа string в который передаем массив someValues для его последующего заполнения&lt;br&gt;string[] FillArray(string[] array)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="270" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tDU4lAh9EVNraaSVH0l1-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tDU4lAh9EVNraaSVH0l1-6" target="tDU4lAh9EVNraaSVH0l1-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tDU4lAh9EVNraaSVH0l1-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tDU4lAh9EVNraaSVH0l1-6" target="tDU4lAh9EVNraaSVH0l1-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="455" />
+              <mxPoint x="600" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tDU4lAh9EVNraaSVH0l1-6" value="Объявляем цикл &lt;br&gt;for для прохода по элементам массива&lt;br&gt;for (int i = 0; i &amp;lt; n; i++)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="380" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="tDU4lAh9EVNraaSVH0l1-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tDU4lAh9EVNraaSVH0l1-10" target="tDU4lAh9EVNraaSVH0l1-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tDU4lAh9EVNraaSVH0l1-10" value="Просим пользователя&amp;nbsp;&lt;br&gt;ввести значение i-ого элемента&lt;br&gt;Console.Write(&quot;Введите значение: &quot;);" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="322.5" y="555" width="235" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="tDU4lAh9EVNraaSVH0l1-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tDU4lAh9EVNraaSVH0l1-12" target="tDU4lAh9EVNraaSVH0l1-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="700" />
+              <mxPoint x="280" y="455" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tDU4lAh9EVNraaSVH0l1-12" value="Присваиваем введенное значение&lt;br&gt;i-ому элементу&lt;br&gt;SomeValues[i] = Console.ReadLine()!;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="327.5" y="670" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tDU4lAh9EVNraaSVH0l1-14" value="да" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="520" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tDU4lAh9EVNraaSVH0l1-15" value="да" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="640" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tDU4lAh9EVNraaSVH0l1-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tDU4lAh9EVNraaSVH0l1-17" target="tDU4lAh9EVNraaSVH0l1-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tDU4lAh9EVNraaSVH0l1-17" value="Возвращаем заполненный массив&lt;br&gt;return SomeValues;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tDU4lAh9EVNraaSVH0l1-19" value="условие не выполняется" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tDU4lAh9EVNraaSVH0l1-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tDU4lAh9EVNraaSVH0l1-20" target="tDU4lAh9EVNraaSVH0l1-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tDU4lAh9EVNraaSVH0l1-20" value="Объявляем метод типа void для вывода результативного массива&lt;br&gt;void NewArray(string[] array)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="860" width="290" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tDU4lAh9EVNraaSVH0l1-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tDU4lAh9EVNraaSVH0l1-22" target="tDU4lAh9EVNraaSVH0l1-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tDU4lAh9EVNraaSVH0l1-22" value="Объявляем переменную &lt;br&gt;int lenght = 0;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tDU4lAh9EVNraaSVH0l1-26" value="Объявляем цикл &lt;br&gt;for для прохода &lt;br&gt;по элементам массива&lt;br&gt;for (int i = 0; i &amp;lt; array.Length; i++)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1080" width="260" height="200" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
