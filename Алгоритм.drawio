@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-19T11:43:12.049Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="EmeSp3b_05S-d4oxxuUK" version="21.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-19T11:53:29.560Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="iu81qzhXDtxjuT6YbIr7" version="21.1.9" type="github">
   <diagram name="Страница 1" id="wiCkhNsXEZ-Z-EXqQOiV">
     <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -89,11 +89,17 @@
         <mxCell id="T3vBm1u9xAtFssdFaRKf-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T3vBm1u9xAtFssdFaRKf-24" target="T3vBm1u9xAtFssdFaRKf-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T3vBm1u9xAtFssdFaRKf-24" value="Проверка выполнения&lt;br&gt;условия, если&lt;br&gt;значение длины &lt;br&gt;i-ого элемента массива &lt;br&gt;меньше или равно трёх символов&lt;br&gt;увеличиваем &lt;br&gt;переменную на один&lt;br&gt;if (array[i].Length &amp;lt;= 3)&lt;br&gt;&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="295" y="1310" width="290" height="230" as="geometry" />
+        <mxCell id="T3vBm1u9xAtFssdFaRKf-24" value="Проверка выполнения&lt;br&gt;условия, если&lt;br&gt;значение длины &lt;br&gt;i-ого элемента массива &lt;br&gt;меньше или равно трёх символов&lt;br&gt;if (array[i].Length &amp;lt;= 3)&lt;br&gt;&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="1310" width="290" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="T3vBm1u9xAtFssdFaRKf-27" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="1580" width="120" height="60" as="geometry" />
+        <mxCell id="T3vBm1u9xAtFssdFaRKf-27" value="увеличиваем&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;переменную на один" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T3vBm1u9xAtFssdFaRKf-29" value="да" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T3vBm1u9xAtFssdFaRKf-30" value="да" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1480" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
