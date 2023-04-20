@@ -4,29 +4,22 @@
 
 Первоначально, мы просим пользователя ввести размерность будущего массива с помощью команды 
 
-Console.Write("Введите размерность массива: ");
-
 и инциализируем переменную N - отвечающую за размерность 
 
-int N = int.Parse(Console.ReadLine()!);
 
 Далее инициализируем строковый массив *"someArray"* с размерностью "N"
 
-string[] someArray = new string[N];
 
 ## Второй этап. Задаём методы для выполнения программы.
 
-Данный метод заполняет массив someArray вводов с клавиатуры.
+Первый метод заполняет массив someArray вводов с клавиатуры.
 
-*string[] FillArray(string[] array) // Метод заполнения массива с клавитуры*
-{
-    *for (int i = 0; i < array.Length; i++)*
+    for (int i = 0; i < array.Length; i++)
     {
-        *Console.Write($"Введите значение для элемента {i}: ");*
-        *array[i] = Console.ReadLine()!;*
+        Console.Write($"Введите значение для элемента {i}: ");
+        array[i] = Console.ReadLine()!;
     }
-    *return array;*
-}
+    return array;
 
 Следующий метод типа void, принимает на вход заполненный массив someValues
 В дальнейшем, с помощью цикла for мы пробегаем, по каждому элементу массива,
@@ -35,30 +28,28 @@ string[] someArray = new string[N];
 Дальше с помощью цикла for, пробегаем по элементам массива, и снова, где длина элемента меньше либо равна, трём,
 записываем в index-ный элемент результативного массива i-ый элемент входного массива, увеличивая index на 1.
 
-void ResultArray(string[] array) // Метод для выведения итогового масссива
-{
     int length = 0;
 
-    *for (int i = 0; i < array.Length; i++)*
+    for (int i = 0; i < array.Length; i++)
     {
-        *if (array[i].Length <= 3)*
+        if (array[i].Length <= 3)
         {
-            *length++;*
+            length++;
         }
     }
 
-    *string[] resultArray = new string[length]*
-    *int index = 0;*
+    string[] resultArray = new string[length]
+    int index = 0;
 
-    *for (int i = 0; i < array.Length; i++)*
+    for (int i = 0; i < array.Length; i++)
     {
-        *if (array[i].Length <= 3)*
+        if (array[i].Length <= 3)
         {
-            *resultArray[index] = array[i];*
-            *index++;*
+            resultArray[index] = array[i];
+            index++;
         }
     }
-    *Console.WriteLine($"Итоговый массив -> [{String.Join(",", resultArray)}]");*
+    Console.WriteLine($"Итоговый массив -> [{String.Join(",", resultArray)}]");
 }
 
 ## Завершающий этап. 
